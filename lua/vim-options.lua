@@ -32,4 +32,4 @@ vim.keymap.set("n", "<leader>sd", "<C-w>l", {desc = "Vai para a split da direita
 vim.keymap.set("n", "<leader>sw", "<C-w>k", {desc = "Vai para a split de cima"})
 vim.keymap.set("n", "<leader>ss", "<C-w>j", {desc = "Vai para a split de baixo"})
 
-vim.keymap.set("n", "<leader>t", ":terminal<CR>", {desc = "Abre terminal"})
+vim.keymap.set("n", "<leader>t", ":terminal<CR>", {desc = "Abre terminal no Neovim"})
