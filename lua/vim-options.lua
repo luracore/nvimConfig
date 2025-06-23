@@ -12,10 +12,13 @@ vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none" })
 
 vim.g.mapleader = " "
 
-vim.keymap.set({"n", "v"}, "<leader>y", '"+y', {desc = "Copiar para o teclado"})
+vim.keymap.set("n", "<leader>e", vim.diagnostic.setqflist, {desc = "Mostrar diagnosticos"})
 
-vim.keymap.set({"n", "v"}, "<leader>d", '"+d', {desc = "Copiar para o teclado e deletar"})
+-- Atalhos para cópia e cola de texto do teclado
+vim.keymap.set({"n", "v"}, "<leader>y", '"+y', {desc = "Copia para o teclado"})
+vim.keymap.set({"n", "v"}, "<leader>d", '"+d', {desc = "Copia para o teclado e deleta"})
+vim.keymap.set({"n", "v"}, "<leader>p", '"+p', {desc = "Cola a cópia do teclado"})
 
-vim.keymap.set({"n", "v"}, "<leader>p", '"+p', {desc = "Colar cópia do teclado"})
-
-vim.keymap.set("n", "<leader>d", vim.diagnostic.setloclist, { desc = "Mostrar diagnosticos"})
+-- Atalhos para git
+vim.keymap.set("n", "<leader>ga", ":!git add .<CR>", {desc = "Git add ." })
+vim.keymap.set("n", "<leader>gc", ":terminal git commit<CR>", {desc = "Git commit interativo" })
