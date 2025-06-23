@@ -12,4 +12,10 @@ vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none" })
 
 vim.g.mapleader = " "
 
+vim.keymap.set({"n", "v"}, "<leader>y", '"+y', {desc = "Copiar para o teclado"})
+
+vim.keymap.set({"n", "v"}, "<leader>d", '"+d', {desc = "Copiar para o teclado e deletar"})
+
+vim.keymap.set({"n", "v"}, "<leader>p", '"+p', {desc = "Colar cópia do teclado"})
+
 vim.keymap.set("n", "<leader>d", vim.diagnostic.setloclist, { desc = "Mostrar diagnosticos"})
