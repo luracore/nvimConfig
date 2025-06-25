@@ -1,30 +1,41 @@
 #nvimConfig
-Arquivos de configuração para o Neovim no Windows
 
-Atalhos:
+Arquivos de configuração para o Neovim no Windows
 
 leader: space
 
-leader-q: Abre arvore Neotree
-leader-w: Busca arquivos no diretório atual
-leader-e: Busca palavras no arquivo atual
+Atalhos (com leader):
 
-leader-a: Indenta texto do arquivo
+- q: Abre arvore Neotree
 
-leader-d: Abre diagnóstico de erros
+- w: Busca arquivos no diretório atual
 
-leader-c: Copia para o teclado
-leader-x: Cola cópia do teclado
-leader-z: Copia do teclado e deleta
+- e: Busca palavras no arquivo atual
 
-leader-tab: Cria nova aba
-tab: Vai para a próxima aba
-Shift-tab: Vai para a aba anterior
+- a: Indenta texto do arquivo
 
-leader-s-s: Cria partição de tela vertical
-leader-s-a: Vai para a partição da esquerda
-leader-s-d: Vai para a partição da direita
+- d: Abre diagnóstico de erros
 
-leader-t: Abre terminal no Neovim
+- c: Copia para o teclado
+
+- x: Cola cópia do teclado
+
+- z: Copia do teclado e deleta
+
+- tab: Cria nova aba
+
+- s-s: Cria partição de tela vertical
+
+- s-a: Vai para a partição da esquerda
+
+- s-d: Vai para a partição da direita
+
+- t: Abre terminal no Neovim
+
+Atalhos (sem leader):
+
+- tab: Vai para a próxima aba
+
+- Shift-tab: Vai para a aba anterior
 
 Criado por luracore
