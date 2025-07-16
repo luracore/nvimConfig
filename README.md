@@ -1,41 +1,43 @@
-#nvimConfig
+# nvimConfig
 
-Arquivos de configuração para o Neovim no Windows
+Arquivos de configuração para o **Neovim** no Windows.
 
-leader: space
+---
 
-Atalhos (com leader):
+## Configuração do Leader
 
-- q: Abre arvore Neotree
+- **Leader:** `<Space>`
 
-- w: Busca arquivos no diretório atual
+---
 
-- e: Busca palavras no arquivo atual
+## Atalhos
 
-- a: Indenta texto do arquivo
+### Modo Normal
 
-- d: Abre diagnóstico de erros
+- `<Leader>q`: Abre árvore do Neotree  
+- `<Leader>w`: Busca arquivos no diretório atual  
+- `<Leader>e`: Busca palavras no arquivo atual  
+- `<Leader>a`: Indenta texto do arquivo  
+- `<Leader>d`: Abre diagnóstico de erros  
+- `<Leader>x`: Cola conteúdo do teclado depois do cursor  
+- `<Leader>X`: Cola conteúdo do teclado antes do cursor  
+- `<Leader><Tab>`: Cria nova aba  
+- `<Tab>`: Vai para a próxima aba  
+- `<Shift-Tab>`: Vai para a ultima aba  
+- `<Leader>ss`: Cria partição de tela vertical  
+- `<Leader>sa`: Vai para a partição da esquerda  
+- `<Leader>sd`: Vai para a partição da direita  
+- `<Leader>t`: Abre terminal no Neovim  
 
-- c: Copia para o teclado
+### Modo Visual
 
-- x: Cola cópia do teclado
+- `<Leader>c`: Copia para o teclado  
+- `<Leader>z`: Copia para o teclado e deleta  
 
-- z: Copia do teclado e deleta
+### Modo Terminal
 
-- tab: Cria nova aba
+- `<Esc>`: Fecha o terminal no Neovim  
 
-- s-s: Cria partição de tela vertical
-
-- s-a: Vai para a partição da esquerda
-
-- s-d: Vai para a partição da direita
-
-- t: Abre terminal no Neovim
-
-Atalhos (sem leader):
-
-- tab: Vai para a próxima aba
-
-- Shift-tab: Vai para a aba anterior
+---
 
 Criado por luracore
