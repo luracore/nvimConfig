@@ -14,3 +14,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
+
+vim.cmd([[highlight textBackGround guibg=#292E42]])
+vim.cmd([[match textBackGround /.\+/]])
